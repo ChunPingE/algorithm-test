@@ -26,7 +26,7 @@ public class Main {
 				arrb[i][j] = sc.nextInt();
 			}
 		}
-
+		//
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j < M; j++) {
 				System.out.print(arra[i][j] + arrb[i][j] + " ");
