@@ -1,4 +1,4 @@
-package sec07.baek2566;
+package sec09.baek2566;
 
 import java.util.Scanner;
 
