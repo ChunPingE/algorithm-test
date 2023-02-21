@@ -1,4 +1,4 @@
-package programmers.lv0;
+package programmers.lv0_20230220;
 
 public class 게임369 {
 	public int solution1(int order) {

@@ -1,4 +1,4 @@
-package programmers.lv0;
+package programmers.lv0_20230220;
 
 public class 문자열뒤집기 {
 	// 문자열 my_string이 매개변수로 주어집니다.

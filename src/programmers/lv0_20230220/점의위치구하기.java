@@ -1,4 +1,4 @@
-package programmers.lv0;
+package programmers.lv0_20230220;
 
 public class 점의위치구하기 {
 	public int solution(int[] dot) {
