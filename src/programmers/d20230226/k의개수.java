@@ -1,7 +1,7 @@
 package programmers.d20230226;
 
 public class k의개수 {
-	public static int solution(int i, int j, int k) {
+	public int solution(int i, int j, int k) {
 		int answer = 0;
 
 		String str = "";
@@ -21,8 +21,8 @@ public class k의개수 {
 		return answer;
 	}
 
-	public static void main(String[] args) {
-		solution(1, 13, 1);
-	}
+//	public static void main(String[] args) {
+//		solution(1, 13, 1);
+//	}
 
 }
