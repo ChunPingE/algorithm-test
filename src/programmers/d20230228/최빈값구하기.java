@@ -7,7 +7,6 @@ public class 최빈값구하기 {
 		int[] index = new int[1001];
 		int max = Integer.MIN_VALUE;
 		
-
 		//갯수세기
 		for (int i = 0; i < array.length; i++) {
 			index[array[i]]++;
