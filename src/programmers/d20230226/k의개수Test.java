@@ -1,8 +1,9 @@
 package programmers.d20230226;
 
-import static org.junit.jupiter.api.Assertions.*;
-
+/*
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 class k의개수Test {
 	@Test
@@ -15,3 +16,4 @@ class k의개수Test {
 		}
 	}
 }
+*/

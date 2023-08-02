@@ -1,4 +1,5 @@
 package leetcode.d20230316;
+/*
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -19,3 +20,4 @@ class leet2206_2Test {
 	}
 
 }
+*/

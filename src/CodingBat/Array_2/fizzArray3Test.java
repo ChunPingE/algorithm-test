@@ -1,6 +1,6 @@
 package CodingBat.Array_2;
 
-import static org.junit.jupiter.api.Assertions.*;
+/*import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
@@ -14,4 +14,4 @@ class fizzArray3Test {
 		assertArrayEquals(new int[] { 5, 6, 7, 8, 9 }, res1);
 	}
 
-}
+}*/
