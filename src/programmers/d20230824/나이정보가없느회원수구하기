@@ -1,0 +1,27 @@
+USER_INFO 테이블에서 나이 정보가 없는 회원이 몇 명인지 출력하는 SQL문을 작성해주세요.
+이때 컬럼명은 USERS로 지정해주세요.
+
+-- 코드를 입력하세요
+SELECT COUNT(*) USERS FROM USER_INFO WHERE AGE IS NULL
+
+WHERE 구의 조건을 활용한 풀이
+COUNT 함수를 사용할 때는 전체(*)를 대상으로 할 때 주의해야 합니다. COUNT(*)는 NULL 값을 포함하고 COUNT(AGE)와 같이 특정 컬럼을 지정해줄 경우 NULL 값을 포함하지 않기 때문입니다. 이 문제에서는 WHERE 구에서 이미 조건을 수행하기 때문에 괜찮지만 다른 문제에서는 주의하시면 좋을 것 같습니다.
+
+SELECT COUNT(USER_ID) AS USERS
+FROM USER_INFO
+WHERE AGE IS NULL;
+예를 들어 이 문제에서 아래 쿼리와
+
+SELECT COUNT(*) AS USERS
+FROM USER_INFO;
+아래 쿼리는 반환하는 결괏값이 다릅니다.
+
+SELECT COUNT(AGE) AS USERS
+FROM USER_INFO
+왜냐하면 앞서 말씀드린 것처럼 COUNT(*)는 NULL 값을 포함해 전체 개수를 세기 때문에 NULL 값을 제외하고 개수를 세는 COUNT(AGE)보다 결과가 크게 나옵니다.
+
+SUM 함수를 사용한 풀이
+조건을 충족하는 참(True)은 곧 1을, 충족하지 못하는 거짓은 곧 0인 논리를 활용한 풀이입니다. SUM 함수 내에 있는 AGE IS NULL이라는 조건을 충족하는 경우에만 1로 변환되어 값이 더해지기 때문에 원하는 정답을 구할 수 있습니다.
+
+SELECT SUM(AGE IS NULL) AS USERS
+FROM USER_INFO;
