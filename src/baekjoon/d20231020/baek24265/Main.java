@@ -1,4 +1,4 @@
-package baekjoon.d20230306.시간복잡도.baek24265;
+package baekjoon.d20231020.baek24265;
 
 import java.io.BufferedReader;
 import java.io.IOException;
