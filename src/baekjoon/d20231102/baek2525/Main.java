@@ -1,4 +1,4 @@
-package baekjoon.sec02조건문.baek2525;
+package baekjoon.d20231102.baek2525;
 
 import java.util.Scanner;
 
