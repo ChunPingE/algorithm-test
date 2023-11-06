@@ -1,4 +1,4 @@
-package baekjoon.sec06문자열.baek1157;
+package baekjoon.d20231106.baek1157;
 
 import java.util.Scanner;
 
