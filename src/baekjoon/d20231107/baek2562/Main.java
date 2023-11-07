@@ -1,4 +1,4 @@
-package baekjoon.sec041차원배열.baek2562;
+package baekjoon.d20231107.baek2562;
 
 import java.util.Scanner;
 
