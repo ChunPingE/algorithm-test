@@ -1,4 +1,4 @@
-package programmers.d20230804;
+package programmers.d20231213;
 
 public class 홀짝에따라다른값반환하기 {
     public int solution(int n) {
