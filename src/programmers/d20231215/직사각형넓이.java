@@ -1,4 +1,4 @@
-package programmers.d20230306;
+package programmers.d20231215;
 
 public class 직사각형넓이 {
 	public int solution(int[][] dots) {
