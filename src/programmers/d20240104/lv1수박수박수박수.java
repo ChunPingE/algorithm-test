@@ -1,4 +1,4 @@
-package programmers.d20230226;
+package programmers.d20240104;
 
 public class lv1수박수박수박수 {
 	public String solution(int n) {
